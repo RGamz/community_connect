@@ -1,0 +1,32 @@
+
+
+#map { height: 500px; }
+        .profile-image-preview {
+            width: 150px;
+            height: 150px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: none;
+        }
+        .marker-popup img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-right: 10px;
+        }
+        .marker-popup .popup-content {
+            display: flex;
+            align-items: center;
+        }
+        .marker-popup .popup-details {
+            flex: 1;
+        }
+        .skill-tag {
+            display: inline-block;
+            margin: 2px;
+            padding: 2px 8px;
+            background-color: #e2e8f0;
+            border-radius: 9999px;
+            font-size: 0.8rem;
+        }
